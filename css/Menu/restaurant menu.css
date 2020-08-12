@@ -1,0 +1,206 @@
+/*
+ * You can say something about your file if you need it!
+ */
+/*-------------------------*/
+/* $Catalog 
+---------------------------*/
+/** 
+ * Globel
+ * Elements
+ * Header
+ * About
+ * Quote
+ * Skill
+ * Experience
+ * Work
+ * Contact
+ * Footer
+ * Parallax graphic
+**/
+
+/*-------------------------*/
+/* $Globel
+---------------------------*/
+
+/*-------------------------*/
+/* $Elements
+---------------------------*/
+*{
+	list-style: none;
+	text-decoration: none;
+}
+/* $Background
+-----------------*/
+.bg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../image/photo-1502252430442-aac78f397426.jpg);
+	background-size: cover;
+	background-position: center;
+	opacity: 0.8;
+}
+
+
+/*-------------------------*/
+/* $jumbotron
+---------------------------*/
+.jumbotron{
+
+}
+
+.jumbotron__item{
+
+}
+.jumbotron__title{
+	color: #fefefe;
+
+}
+.jumbotron__item .image{
+	min-height: 56vh;
+	background-size: cover;
+	background-position: center;
+}
+/*-------------------------*/
+/* $About
+---------------------------*/
+.logo .logobox{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;	
+}
+.logo .logobox img{
+	width: 100%;
+}
+.about-title{
+	text-align: center;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 56px;
+}
+@media(max-width: 760px){
+	.about-title{
+		text-align: center;
+		font-size: 16px;
+	}
+}
+.menu{
+	text-align: center;
+}
+
+.menu img{
+	width: 80%;
+	height: 100%;
+}
+.menu-pic{
+	text-align: center;
+	padding: 0 10px;
+}
+.menu-pic-bg{
+	position: fixed;
+	left: 0;
+	right: 0;
+	height: 100% 
+	width: 100% 
+	background-color: rgba(0,0,0,0.5);
+}
+.menu-pic-photo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.menu-pic-item{
+	height: 200px;
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+.menu-pic-item h4{
+	padding: 0;
+	margin: 0;
+}
+.menu-pic-item img{
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+}
+.about-text{
+	padding: 0 10px;
+}
+.about-text p{
+	font-size: 28px;
+	line-height: 48px;
+    text-align: center;
+}
+@media(max-width: 767px){
+	.about-text p{
+		font-size: 16px;
+	}	
+}
+.about-text iframe{
+	margin: auto;
+}
+
+
+/*-------------------------*/
+/* $Contact
+---------------------------*/
+.contact{
+	margin-bottom: 24px;
+}
+
+.contact-title{
+	text-align: center;
+	color: #484848;
+	margin-top:48px;	
+}
+.contact-icon{
+	text-align: center;
+	font-size: 48px;
+    color: #484848;
+}
+.contact-icon .fa-facebook-official{
+     padding: 0 16px;
+      color: #548dff;
+}
+.contact-icon .line{
+      padding: 0 16px;
+      font: 'arial';
+      font-weight: 600;
+}
+.contact-icon .fa-youtube-play{
+	  padding: 0 16px;
+	  color: red;
+}
+
+.contact .or{
+      font-size: 36px;
+      padding: 12px 0;
+}
+.contact .info__email a{
+	font-size: 28px;
+	color: #484848;
+}
+.contact .info__phone a{
+	font-size: 28px;
+	color: #484848;
+}
+/*-------------------------*/
+/* $Footer
+---------------------------*/
+.footer{
+	padding: 6px 0;
+	background-color: #000;
+	text-align: center;
+}
+.footer p{
+	color: #484848;
+}
+
+
+
+
