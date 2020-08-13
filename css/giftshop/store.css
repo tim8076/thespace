@@ -1,0 +1,207 @@
+/*
+ * You can say something about your file if you need it!
+ */
+/*-------------------------*/
+/* $Catalog 
+---------------------------*/
+/** 
+ * Globel
+ * Elements
+ * Header
+ * About
+ * Quote
+ * Skill
+ * Experience
+ * Work
+ * Contact
+ * Footer
+ * Parallax graphic
+**/
+
+/*-------------------------*/
+/* $Globel
+---------------------------*/
+
+/*-------------------------*/
+/* $Elements
+---------------------------*/
+*{
+	list-style: none;
+	text-decoration: none;
+}
+/* $Background
+-----------------*/
+.bg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../image/photo-1502252430442-aac78f397426.jpg);
+	background-size: cover;
+	background-position: center;
+	opacity: 0.8;
+}
+
+
+
+
+/
+/*-------------------------*/
+/* $jumbotron
+---------------------------*/
+.jumbotron{
+
+}
+
+.jumbotron__item{
+
+}
+.jumbotron__title{
+	color: #fefefe;
+
+}
+.jumbotron__item .image{
+	min-height: 56vh;
+	background-size: cover;
+	background-position: center;
+}
+/*-------------------------*/
+/* $giftshop
+---------------------------*/
+
+ .list-toggle {
+ 	padding: 20px 10px;
+	color: #555555;
+	cursor: pointer;
+	font-size: 24px;	
+}
+
+.product-list > ul > li{
+	border-bottom: 1px solid #aaa;
+}
+@media(max-width: 1440px){
+	.product-list li{
+		font-size: 24px;
+	}
+}
+.product-list ul{
+	padding: 0;
+}
+.list-item a{
+	color:#555555;
+	padding: 20px 10px;
+	display: block;
+	font-size: 24px;
+}
+.list-item .fa{
+	padding: 0 10px;
+	flex-direction: row;
+}
+.list-item:hover{
+	background-color: #e2e2e2;
+}
+
+
+.slide{
+	display: none;	
+}
+.slide a{
+  color: #555555;
+  padding-left: 25px;
+  padding: 20px 0px 20px 20px;
+  display: block;
+  font-size: 24px;
+}
+.product-box{
+	padding: 20px;
+}
+.product-txt p{
+  font-size: 24px;
+  color: #555555;
+  line-height: 10px;
+}
+.product-txt .btn{
+	color: #000;
+	border:1px solid #000;
+	border-radius: 8px;
+	background-color: #fff;
+	padding: 0 40px;
+	line-height: 40px;
+	height: 40px;
+}
+@media(max-width: 768px){
+	.product-txt .btn{
+		font-size: 16px;
+	}
+}
+.product-txt .btn:hover{
+	background-color: #555555;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+/*-------------------------*/
+/* $Contact
+---------------------------*/
+.contact{
+	margin-bottom: 24px;
+}
+
+.contact-title{
+	text-align: center;
+	color: #484848;
+	margin-top:48px;	
+}
+.contact-icon{
+	text-align: center;
+	font-size: 48px;
+    color: #484848;
+}
+.contact-icon .fa-facebook-official{
+     padding: 0 16px;
+      color: #548dff;
+}
+.contact-icon .line{
+      padding: 0 16px;
+      font: 'arial';
+      font-weight: 600;
+}
+.contact-icon .fa-youtube-play{
+	  padding: 0 16px;
+	  color: red;
+}
+
+.contact .or{
+      font-size: 36px;
+      padding: 12px 0;
+}
+.contact .info__email a{
+	font-size: 28px;
+	color: #484848;
+}
+.contact .info__phone a{
+	font-size: 28px;
+	color: #484848;
+}
+/*-------------------------*/
+/* $Footer
+---------------------------*/
+.footer{
+	padding: 6px 0;
+	background-color: #000;
+	text-align: center;
+}
+.footer p{
+	color: #484848;
+}
+
+
+
+
