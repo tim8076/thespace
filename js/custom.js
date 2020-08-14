@@ -10,6 +10,10 @@ $(document).ready(function(){
     //   $(this).children(".dropdown").stop().slideToggle(200);
       
     // })
+
+    $(".info-item").click(function(){
+      return false;
+    })
    
       //首頁頁籤
     $("#contents div[id != 'content1']").hide();
