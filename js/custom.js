@@ -5,9 +5,11 @@ $(document).ready(function(){
    })
 
        //首頁選單收合
-    $(".navbar__info > li").hover(function(){
-      $(this).children(".dropdown").stop().slideToggle(200);
-    })
+
+    // $(".navbar__info > li").click(function(){
+    //   $(this).children(".dropdown").stop().slideToggle(200);
+      
+    // })
    
       //首頁頁籤
     $("#contents div[id != 'content1']").hide();
