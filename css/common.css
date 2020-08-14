@@ -140,7 +140,7 @@
 	    margin: 0;
 	    width: 50%;
 	    background-color: #69cc9a;
-	    z-index: 2000;
+	    z-index: 3000;
 	    padding-top: 56px;
 	    opacity: 0;
 	    visibility: hidden;
