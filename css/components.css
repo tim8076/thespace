@@ -69,6 +69,11 @@
 		height:45vh;
 	}
 }
+@media(max-height: 415px){
+	.jumbotron__item .image{
+		height:85vh;
+	}
+}
 .jumbotron .owl-theme .owl-nav .owl-prev,
 .jumbotron .owl-theme .owl-nav .owl-next{
      position: absolute;

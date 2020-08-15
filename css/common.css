@@ -140,7 +140,7 @@
 	    margin: 0;
 	    width: 50%;
 	    background-color: #69cc9a;
-	    z-index: 3000;
+	    z-index: 500;
 	    padding-top: 56px;
 	    opacity: 0;
 	    visibility: hidden;
@@ -172,6 +172,23 @@
     .navbar__titile{
     	margin-left: 20px;
     }
+}
+/*手機橫式 選單高度*/
+@media(max-height: 415px){
+	.responsive-popup{
+         height: 100vh;
+         width: 35%;
+	}
+	.navbar__info > li >a{
+		padding: 12px 5px 10px 15px;
+		font-size: 16px;
+	}
+	.navbar__info .dropdown li{
+		font-size: 14px;
+	}
+	.navbar__info .dropdown li a{
+		padding: 10px 5px;
+	}
 }
 .info-toggle{
     width: 36px;

@@ -4,14 +4,10 @@ $(document).ready(function(){
     $(".slide").slideToggle(200);
    })
 
-       //首頁選單收合
-
-    // $(".navbar__info > li").click(function(){
-    //   $(this).children(".dropdown").stop().slideToggle(200);
-      
-    // })
+      //側邊選單收合
 
     $(".info-item").click(function(){
+
       return false;
     })
    
