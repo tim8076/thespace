@@ -89,9 +89,12 @@
     display: none;
 }
 
+@media(min-width: 768px){
 .navbar__info > li:hover .dropdown{
 	 display: block;
    }
+
+}
 
 @media(max-width: 1120px){
 	.navbar__info > li{
@@ -107,9 +110,6 @@
 	}
 	.navbar__info .dropdown li{
 		padding: 10px 15px 10px 20px;
-	}
-	.navbar__info > li:target .dropdown{
-        display: block;
 	}
 }
 
@@ -189,6 +189,10 @@
 	.navbar__info .dropdown li a{
 		padding: 10px 5px;
 	}
+	.navbar__titile{
+		margin-top: 4px;
+	}
+
 }
 .info-toggle{
     width: 36px;

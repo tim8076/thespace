@@ -7,7 +7,7 @@ $(document).ready(function(){
       //側邊選單收合
 
     $(".info-item").click(function(){
-
+      $($(this).parent("li")).children(".dropdown").stop().slideToggle(200);
       return false;
     })
    
